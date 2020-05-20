@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-JAMBUR3",
+    "children" : [ {
+      "name" : "12728-MainThread",
+      "children" : [ {
+        "name" : "test_script[chrome]",
+        "uid" : "71fb4d7c70f271d4",
+        "parentUid" : "83c3d340d983535c9f2314f61d6d5b5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589510042314,
+          "stop" : 1589510042314,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "83c3d340d983535c9f2314f61d6d5b5c"
+    } ],
+    "uid" : "20f58f246004df388a98625f9e186941"
+  } ]
+}

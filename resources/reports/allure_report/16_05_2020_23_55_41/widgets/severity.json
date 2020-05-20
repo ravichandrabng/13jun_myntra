@@ -1,0 +1,11 @@
+[ {
+  "uid" : "b313c40968928818",
+  "name" : "test_script[chrome]",
+  "time" : {
+    "start" : 1589653538648,
+    "stop" : 1589653538648,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

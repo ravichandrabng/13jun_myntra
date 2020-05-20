@@ -1,0 +1,151 @@
+{
+  "uid" : "250d2292f256c8be",
+  "name" : "test_script[chrome]",
+  "fullName" : "test_scripts.test_search.test_sample#test_script",
+  "historyId" : "9d8eaa7c376a432f2807eedeee9f9f37",
+  "time" : {
+    "start" : 1589653424661,
+    "stop" : 1589653424665,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1589653399195,
+      "stop" : 1589653424631,
+      "duration" : 25436
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "add_environment_details_to_allure_report",
+    "time" : {
+      "start" : 1589653368776,
+      "stop" : 1589653399193,
+      "duration" : 30417
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4b65f5eb806f9ca1",
+      "name" : "stdout",
+      "source" : "4b65f5eb806f9ca1.txt",
+      "type" : "text/plain",
+      "size" : 14630
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "set_up::0",
+    "time" : {
+      "start" : 1589653424682,
+      "stop" : 1589653427654,
+      "duration" : 2972
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "add_environment_details_to_allure_report::0",
+    "time" : {
+      "start" : 1589653427670,
+      "stop" : 1589653427764,
+      "duration" : 94
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts.test_search"
+  }, {
+    "name" : "suite",
+    "value" : "test_sample"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JAMBUR3"
+  }, {
+    "name" : "thread",
+    "value" : "13520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_search.test_sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "set_up",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "45dea0d6ef12ca4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589509465511,
+          "stop" : 1589509465511,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "250d2292f256c8be.json",
+  "parameterValues" : [ "'chrome'" ]
+}
