@@ -1,5 +1,5 @@
-import os
 import pytest
+
 from source.utilities import helper
 from source.utilities.driver_factory import DriversFactory
 from source.utilities.properties import ReadConfig
@@ -7,10 +7,6 @@ from source.utilities.properties import ReadConfig
 
 @pytest.fixture(scope="session", autouse=True)
 def add_environment_details_to_allure_report():
-    file_path = "./requirements.txt"
-    abs_path = os.path.abspath(file_path)
-    command = "pip install -r " + abs_path
-    os.system(command)
     yield
     ReadConfig.write_to_report()
 
@@ -29,6 +25,7 @@ def set_up(request):
     url = ReadConfig.get_url()
     factory = DriversFactory()
     driver = factory.get_web_driver(browser_name, url)
+
     if driver is not None:
         request.node.driver = driver
     yield

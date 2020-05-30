@@ -19,8 +19,6 @@ class DriversFactory:
             self.driver = webdriver.Chrome(executable_path=globals.CHROME_DRIVER)
         elif browser_name == "firefox" or "ff":
             self.driver = webdriver.Firefox(executable_path=globals.FIREFOX_DRIVER)
-        elif browser_name == "internet explorer" or "ie":
-            self.driver = webdriver.ie(executable_path=globals.IE_DRIVER)
         self.driver.maximize_window()
         self.driver.get(url)
         self.driver.implicitly_wait(ReadConfig.get_implicit_wait())
