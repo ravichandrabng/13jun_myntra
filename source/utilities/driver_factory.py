@@ -15,9 +15,9 @@ class DriversFactory:
         return self.driver
 
     def create_driver(self, browser_name, url):
-        if browser_name == "chrome" or "ch":
+        if browser_name == "chrome":
             self.driver = webdriver.Chrome(executable_path=globals.CHROME_DRIVER)
-        elif browser_name == "firefox" or "ff":
+        elif browser_name == "firefox":
             self.driver = webdriver.Firefox(executable_path=globals.FIREFOX_DRIVER)
         self.driver.maximize_window()
         self.driver.get(url)

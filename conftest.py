@@ -14,7 +14,6 @@ def add_environment_details_to_allure_report():
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
 def pytest_runtest_makereport(item, call):
     outcome = yield
-    print(call)
     rep = outcome.get_result()
     setattr(item, "rep_"+rep.when, rep)
 
