@@ -22,5 +22,5 @@ os.system(command)
 sleep(15)
 helper.delete_all_files(globals.ALLURE_RESULTS)'''
 
-args = ['-n', '2', '--alluredir', globals.ALLURE_RESULTS]
+args = ['--alluredir', globals.ALLURE_RESULTS]
 pytest.main(args, plugins=[ReportPlugin()])
