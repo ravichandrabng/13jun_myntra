@@ -17,10 +17,10 @@ class ReportPlugin:
 '''file_path = "./requirements.txt"
 abs_path = os.path.abspath(file_path)
 command = "pip install -r " + abs_path
-os.system(command)'''
+os.system(command)
 
 sleep(15)
-helper.delete_all_files(globals.ALLURE_RESULTS)
+helper.delete_all_files(globals.ALLURE_RESULTS)'''
 
 args = ['-n', '2', '--alluredir', globals.ALLURE_RESULTS]
 pytest.main(args, plugins=[ReportPlugin()])
