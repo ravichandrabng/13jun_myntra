@@ -12,6 +12,7 @@ class ReportPlugin:
     def pytest_sessionfinish(self):
         globals.ALLURE_REPORT = globals.ALLURE_REPORT + datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
         os.popen("allure generate " + globals.ALLURE_RESULTS + " --output " + globals.ALLURE_REPORT)
+        print("Test Commit")
 
 
 '''file_path = "./requirements.txt"
